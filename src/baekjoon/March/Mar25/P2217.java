@@ -17,6 +17,12 @@ public class P2217 {
 
         Arrays.sort(arr);
 
-        System.out.println(arr[0] * n);
+        int max = Integer.MIN_VALUE;
+
+        for (int i = 0; i < n; i++) {
+            max = Math.max(max, arr[i] * (n - i));
+        }
+
+        System.out.println(max);
     }
 }
