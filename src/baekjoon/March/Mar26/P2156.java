@@ -1,4 +1,4 @@
-package baekjoon.March.Mar36;
+package baekjoon.March.Mar26;
 
 import java.util.Scanner;
 
